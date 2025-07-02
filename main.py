@@ -4,7 +4,7 @@ import docx2txt
 import PyPDF2
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+#new bug fixed
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
